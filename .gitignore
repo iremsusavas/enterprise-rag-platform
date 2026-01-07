@@ -22,7 +22,9 @@ data/
 *.pdf
 *.docx
 *.txt
-*.md
+# Note: README.md, CONTRIBUTING.md, LICENSE should be tracked
+# Only ignore markdown files in data/ directory
+data/**/*.md
 
 # Logs
 logs/
